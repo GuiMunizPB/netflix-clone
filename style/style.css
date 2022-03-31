@@ -1,0 +1,101 @@
+:root {
+    --vermelho:#E50914
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*base*/
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .Logo {
+    align-items: flex-start;
+}
+
+header .container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 12px;
+}
+
+header nav a :hover {
+    color: white;
+}
+/*filme principal*/
+.filme-principal {
+    font-size: 15px;
+    background-image: url(PEAKY.jpg);
+    
+    height: 740px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+    
+    cursor: pointer;
+    transition: 1.5s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.box-filme {
+    height: 400px;
+    width: 200px;
+    display: block;
+    border: 5px solid black;
+    border-radius: 1px;
+}
+
+.rodape {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
