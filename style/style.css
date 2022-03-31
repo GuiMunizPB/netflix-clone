@@ -88,8 +88,8 @@ header nav a :hover {
 }
 
 .box-filme {
-    height: 400px;
-    width: 200px;
+    height: 25%;
+    width: 10%;
     display: block;
     border: 5px solid black;
     border-radius: 1px;
